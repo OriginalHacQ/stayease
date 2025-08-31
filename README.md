@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # StayEase Guesthouse Website
 
+=======
+>>>>>>> b7f24811eac39045fbec587bf68aef217f74b2c3
 A modern, responsive static website for StayEase Guesthouse, built with Next.js, React, TypeScript, and Tailwind CSS. This site showcases available rooms and provides contact information—no booking or admin features are included.
 
 ## Features
@@ -8,6 +11,7 @@ A modern, responsive static website for StayEase Guesthouse, built with Next.js,
 - About, testimonials, and contact sections
 - Fully responsive design
 - Clean, modern UI
+<<<<<<< HEAD
 
 ## Tech Stack
 - [Next.js 15](https://nextjs.org/)
@@ -58,3 +62,5 @@ pnpm run start
 
 ## License
 This project is open source and available under the MIT License.
+=======
+>>>>>>> b7f24811eac39045fbec587bf68aef217f74b2c3
