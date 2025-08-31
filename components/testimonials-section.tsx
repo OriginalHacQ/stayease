@@ -1,29 +1,18 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Star } from "lucide-react"
 
-const testimonials = [
-  {
-    name: "Sarah Johnson",
-    location: "Accra, Ghana",
-    rating: 5,
-    comment:
-      "Absolutely stunning! The attention to detail and luxury amenities exceeded all expectations. Will definitely return.",
-  },
-  {
-    name: "Michael Asante",
-    location: "Kumasi, Ghana",
-    rating: 5,
-    comment: "Perfect for our business trip. The executive suite was spacious and the service was impeccable.",
-  },
-  {
-    name: "Emma Thompson",
-    location: "London, UK",
-    rating: 5,
-    comment: "A hidden gem! The modern design and warm hospitality made our vacation unforgettable.",
-  },
-]
+// No testimonials by default; will only show if reviews are added by real users
+type Testimonial = {
+  name: string
+  location: string
+  rating: number
+  comment: string
+}
+const testimonials: Testimonial[] = []
 
 export function TestimonialsSection() {
+  if (!testimonials.length) return null
+
   return (
     <section className="py-16 bg-muted/30">
       <div className="container mx-auto px-4">
